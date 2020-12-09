@@ -1,0 +1,61 @@
+.just img {
+    transform-origin: 10% 50%;
+}
+.tabs {
+    margin: 20px;
+}
+.tab {
+    padding: 10px;
+    margin: 0 10px;
+}
+.tabscontent {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: 10% 0%;
+    
+    
+    
+}
+.active {
+    
+    
+}
+.Tt {
+    transition: all 1s;
+    margin: 20px;
+    transition: 1s;
+}
+.modal_overlayer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+.modal_window {
+    position: relative;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    background-color: seashell;
+    margin: 20vh auto;
+    z-index: 300;
+}
+.modal_head {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.modal {
+    
+    display: none;
+    
+}
+.modal_close {
+    cursor: pointer;
+}
